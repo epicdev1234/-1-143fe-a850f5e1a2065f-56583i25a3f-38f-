@@ -4,19 +4,20 @@ local loadCorrectKey = "https://raw.githubusercontent.com/epicdev1234/-1-143fe-a
 
 -- File Function -- 
 
-_G.Key = "WELCOMEBACKSCRIPTXHUB1" -- Your current key
-_G.WriteKey = "{Key:01461871}"
-_G.KeyPath = "Key_54424091.SCRIPTXHUB"
-_G.OldKeyPath = "Key_42840421.SCRIPTXHUB"
+_G.Key = "WELCOMEBACKSCRIPTXHUB" -- Your current key
+_G.WriteKey = "{Key:014687}"
+_G.KeyPath = "Key_5442409.SCRIPTXHUB"
+_G.OldKeyPath = "Key_4284042.SCRIPTXHUB"
 
 -- Keys --
 
 local Keys = {
-    ["FusionGOdDamfuckingretard"] = true,
+    ["FusionFuckingRetard"] = true,
+    [_G.Key] = true,
 }
  
 local BlacklistedKeys = {
-    ["LOLImBypassNopeurnOt"] = true,
+    ["LOLImBypass"] = true,
 }
 
 -- Variables --
