@@ -12,12 +12,11 @@ _G.OldKeyPath = "Key_42840421.SCRIPTXHUB"
 -- Keys --
 
 local Keys = {
-    ["FusionFuckingRetard"] = false,
-    [_G.Key] = false,
+    ["FusionGOdDamfuckingretard"] = true,
 }
  
 local BlacklistedKeys = {
-    ["LOLImBypass"] = false,
+    ["LOLImBypassNopeurnOt"] = true,
 }
 
 -- Variables --
