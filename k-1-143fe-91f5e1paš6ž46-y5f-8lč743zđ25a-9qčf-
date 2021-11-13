@@ -4,9 +4,10 @@ local loadCorrectKey = "https://raw.githubusercontent.com/epicdev1234/-1-143fe-a
 
 -- File Function -- 
 
-_G.Key = "WELCOMEBACKSCRIPTXHUB" -- Your current key
+_G.Key = "WELCOMEBACKSCRIPTX" -- Your current key
 _G.WriteKey = "{Key:014687}"
-_G.KeyPath = "Key_5442409.SCRIPTXHUB"
+_G.KeyPath = "Key_1529706.SCRIPTXHUB"
+_G.Old1KeyPath = "Key_5442409.SCRIPTXHUB"
 _G.OldKeyPath = "Key_4284042.SCRIPTXHUB"
 
 -- Keys --
@@ -568,6 +569,15 @@ spawn(function()
             HankHubLogin:Destroy()
             notify("ScriptX HUB","Your key has been saved on your file",5)
             loadstring(game:HttpGet(loadCorrectKey, true))()
+        end
+    end)
+    
+    spawn(function()
+        if readfile(_G.Old1KeyPath) then
+            notify("ScriptX HUB","Checking your workspace folder..",5)
+            delfile(_G.OldKeyPath)
+            wait(5)
+            notify("ScriptX HUB","Your key has expired")
         end
     end)
     
